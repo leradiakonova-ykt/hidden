@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+	.box{
+		height: 50px;
+		width: 50px;
+		margin-top: 10px;
+		margin-left:50px ;
+	}
+	.box2{
+		height: 50px;
+		width: 50px;
+		margin-left: 820px;
+		margin-top: 70px;
+	}
+	.box3{
+		height: 125px;
+		width: 128px;
+		margin-left: 660px;
+		position: absolute;
+		top: 35px;
+	}
+	.box4{
+		height: 120px;
+		width: 100px;
+		margin-left: 540px;
+		position: absolute;
+		top: 240px;
+
+	}
+	.box5{
+		height: 90px;
+		width: 90px;
+		margin-left: 770px;
+		position: absolute;
+		top: 380px;
+	}
+	.box6{
+		height: 70px;
+		width: 70px;
+		margin-left: 900px;
+		position: absolute;
+		top: 400px;
+	}
+	.box7{
+		height: 70px;
+		width: 70px;
+		margin-left: 790px;
+		position: absolute;
+		top: 210px;
+
+	}
+	</style>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+	<div class="bg-warning col" style="height: 950px;background-image: url(https://genapilot.ru/wp-content/uploads/2018/01/best-hidden-object-games-3.jpg);background-size: 100% 100%;">
+		
+		<div class="bg-warning col-1" style="height:300px;">
+			<h1 class="fs-4">Найди:</h1>
+			<h1 class="fs-5">1.розу</h1>
+			<h1 class="fs-5">2.траву</h1>
+			<h1 class="fs-5">3.что то</h1>
+			<h1 class="fs-5">4.кошка</h1>
+			<h1 class="fs-5">5.змея</h1>
+			<h1 class="fs-5">6.паук</h1>
+			<h1 class="fs-5">7.ведро</h1>
+			<h1 class="fs-4">Очки: <span class="showScore"></span></h1>
+		</div>
+		<div class="box">
+			<img src="https://images.pexels.com/photos/3860685/pexels-photo-3860685.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"class="box">
+		</div>
+		<div class="box2">
+			<img src="https://snegir.org/upload/resize_cache/iblock/2ee/1000_800_1/2ee403290c75cda327019a1bfefe089f.jpg" class="box2">
+		</div>
+		<div class="box3">
+			<img src="https://pngimg.com/uploads/moon/moon_PNG20.png" class="box3">
+		</div>
+		<div class="box4">
+			<img src="https://opt-492372.ssl.1c-bitrix-cdn.ru/upload/iblock/5ea/5eacbb57c689b2ec659c17a6aeb74eba.png?1421319581117201" class="box4">
+		</div>
+		<div class="box5">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Coronella_austriaca_female_transparent_2.png/640px-Coronella_austriaca_female_transparent_2.png" class="box5">
+		</div>
+		<div class="box6">
+			<img src="https://wow.zamimg.com/modelviewer/tbc/webthumbs/npc/30/30.png" class="box6">
+		</div>
+		<div class="box7">
+			<img src="https://rust-1.ru/wp-content/uploads/2016/11/bucket.water_.png" class="box7">
+		</div>
+	</div>
+	<script type="text/javascript">
+		let score = 0
+		document.querySelector(".box").onclick = function(){
+			document.querySelector(".box").style.display = "none"
+			score = score+1
+			document.querySelector(".showScore").innerHTML = score
+		}
+		document.querySelector(".box2").onclick = function(){
+			document.querySelector(".box2").style.display = "none"
+			score = score+1
+			document.querySelector(".showScore").innerHTML = score
+		}
+		document.querySelector(".box3").onclick = function(){
+			document.querySelector(".box3").style.display = "none"
+			score = score+1
+			document.querySelector(".showScore").innerHTML = score
+		}
+		document.querySelector(".box4").onclick = function(){
+			document.querySelector(".box4").style.display = "none"
+			score = score+1
+			document.querySelector(".showScore").innerHTML = score
+		}
+		document.querySelector(".box5").onclick = function(){
+			document.querySelector(".box5").style.display = "none"
+			score = score+1
+			document.querySelector(".showScore").innerHTML = score
+		}
+		document.querySelector(".box6").onclick = function(){
+			document.querySelector(".box6").style.display = "none"
+			score = score+1
+			document.querySelector(".showScore").innerHTML = score
+		}
+		document.querySelector(".box7").onclick = function(){
+			document.querySelector(".box7").style.display = "none"
+			score = score+1
+			document.querySelector(".showScore").innerHTML = score
+		}
+	</script>
+</body>
+</html>
